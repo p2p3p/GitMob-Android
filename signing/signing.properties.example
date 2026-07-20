@@ -1,0 +1,8 @@
+# 签名配置
+# 复制此文件为 signing.properties 并填写你的密钥信息
+# ⚠️ signing.properties 和 *.jks 已加入 .gitignore，不会提交到 git
+
+KEYSTORE_PATH=signing/release-key.jks
+KEYSTORE_PASSWORD=your_keystore_password
+KEY_ALIAS=your_key_alias
+KEY_PASSWORD=your_key_password

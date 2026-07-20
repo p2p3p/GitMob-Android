@@ -1,0 +1,39 @@
+# Build
+/build
+app/build
+*/node_modules/
+deploy/cloudflare/.wrangler
+
+# Keystore & 签名配置（绝对不提交）
+*.jks
+*.keystore
+*.p12
+signing/signing.properties
+signing/release-key.jks
+
+# Local config
+local.properties
+.gradle
+*.iml
+.idea/
+.DS_Store
+
+# Android
+/captures
+.externalNativeBuild
+.cxx
+
+# Secrets
+*.env
+.env.local
+# 其他
+/*.txt
+*.dev.vars
+deploy/cloudflare/package-lock.json
+.trae
+.kotlin
+attention.md
+# 备份文件
+*.bak
+*.tmp
+*.temp
